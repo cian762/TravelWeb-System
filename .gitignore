@@ -365,3 +365,25 @@ FodyWeavers.xsd
 # Angular specifics
 .angular/
 dist/
+
+# VS Code specifics
+
+.vscode/
+
+!.vscode/extensions.json  
+
+*.code-workspace          
+
+
+
+# Local History plugin
+
+.history/
+
+# VS Code specifics
+.vscode/
+!.vscode/extensions.json  # 這是例外：可以留著推薦安裝哪些套件
+*.code-workspace          
+
+# Local History plugin
+.history/
